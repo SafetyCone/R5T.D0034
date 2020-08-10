@@ -1,0 +1,4 @@
+R5T.D0034.Base - Base definitions library for the IVisualStudioProjectFileProjectReferencePathProvider service - Synchronous, stringly-typed.
+
+Goals
+
