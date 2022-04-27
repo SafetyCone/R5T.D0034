@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 
-using R5T.Lombardy;
+using R5T.Lombardy;using R5T.T0064;
 
 
 namespace R5T.D0034.Default
-{
-    public class VisualStudioProjectFileProjectReferencePathProvider : IVisualStudioProjectFileProjectReferencePathProvider
+{[ServiceImplementationMarker]
+    public class VisualStudioProjectFileProjectReferencePathProvider : IVisualStudioProjectFileProjectReferencePathProvider,IServiceImplementation
     {
         private IStringlyTypedPathOperator StringlyTypedPathOperator { get; }
 
